@@ -1,5 +1,5 @@
 /*===================
-  Theme sombre v1.0
+  Theme sombre v1.1
 ===================*/
 
 /* Couleur */
@@ -8,6 +8,7 @@
   --darkmode-color1: #121212;
   --darkmode-color2: #202020;
   --darkmode-color3: #2F2E38;
+  --darkmode-color4: #4D4C5D;
   --darkmode-color5: #131A20;
   --darkmode-color6: #00BFE5;
   --darkmode-color8: #A7ABC3;
@@ -31,7 +32,7 @@ input {
 /* Surcharge login.css */
 
 .kt-login.kt-login--v1 .kt-login__wrapper {
-  background-color: var(--darkmode-color1);
+    background-color: var(--darkmode-color1) !important;
 }
 
 
@@ -190,15 +191,18 @@ table a {
 }
 
 .form-control {
-  color: var(--darkmode-color8);
-  background-color: var(--darkmode-color1);
-  border-color: var(--darkmode-color3);
+  color: var(--darkmode-color8) !important;
+  background-color: var(--darkmode-color1) !important;
+  border-color: var(--darkmode-color3) !important;
+}
+
+.form-control::placeholder {
+  color: var(--darkmode-color4) !important;
 }
 
 .form-control:focus {
-  color: var(--darkmode-color9);
-  background-color: var(--darkmode-color2);
-  border-color: #669cf7;
+  color: var(--darkmode-color9) !important;
+  border-color: #669cf7 !important;
 }
 
 .form-control:disabled, .form-control[readonly] {
