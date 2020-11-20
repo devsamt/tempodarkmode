@@ -315,7 +315,25 @@ table a {
     border-color: var(--darkmode-color3);
 }
 
+.kt-notification .kt-notification__item:hover {
+    background-color: var(--darkmode-color1);
+}
+
 .kt-notification .kt-notification__item .kt-notification__item-details .kt-notification__item-title {
+    color: var(--darkmode-color9);
+}
+
+.jstree-default .jstree-anchor {
+    color: var(--darkmode-color8);
+}
+
+.jstree-default .jstree-clicked {
+    background: var(--darkmode-color1);
+    color: var(--darkmode-color9);
+}
+
+.jstree-default .jstree-hovered {
+    background: var(--darkmode-color1);
     color: var(--darkmode-color9);
 }
 
@@ -324,7 +342,7 @@ table a {
 /* Surcharge widget.css */
 
 .plan-active-menu {
-    background-color: var(--darkmode-color4);
+    background-color: var(--darkmode-color1);
 }
 
 
