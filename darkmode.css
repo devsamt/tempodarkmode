@@ -118,7 +118,7 @@ body {
 }
 
 .kt-portlet .kt-portlet__head {
-  border-bottom-color: var(--darkmode-color1);
+  border-bottom-color: var(--darkmode-color3);
 }
 
 .table-bordered,
@@ -219,7 +219,7 @@ table a {
 }
 
 .accordion.accordion-light .card {
-  border-color: var(--darkmode-color1);
+  border-color: var(--darkmode-color3);
 }
 
 .kt-switch input:empty ~ span:before {
@@ -232,7 +232,8 @@ table a {
 }
 
 .kt-switch.kt-switch--outline.kt-switch--success input:empty ~ span:before {
-  border-color: var(--darkmode-color1);
+  border-width: 1px;
+  border-color: var(--darkmode-color3);
   background-color: var(--darkmode-color1);
 }
 
