@@ -1,5 +1,5 @@
 /*===================
-  Theme sombre v1.1
+  Theme sombre v1.2
 ===================*/
 
 /* Couleur */
@@ -124,7 +124,7 @@ body {
 .table-bordered,
 .table-bordered th,
 .table-bordered td {
-  border-color: var(--darkmode-color1);
+  border-color: var(--darkmode-color3);
 }
 
 .kt-widget.kt-widget--user-profile-1 .kt-widget__body .kt-widget__content .kt-widget__info .kt-widget__label {
@@ -151,6 +151,10 @@ body {
   background: var(--darkmode-color1);
 }
 
+.kt-widget16 .kt-widget16__items .kt-widget16__item {
+    border-color: var(--darkmode-color4);
+}
+
 .table {
   color: var(--darkmode-color8);
 }
@@ -161,11 +165,7 @@ body {
 
 .table thead th,
 .table tbody td {
-  border-top-color: var(--darkmode-color1);
-}
-
-.table thead th {
-  border-bottom-color: var(--darkmode-color1);
+  border-top-color: var(--darkmode-color3);
 }
 
 .table tbody + tbody {
@@ -304,6 +304,26 @@ table a {
 .dropdown-item:hover, .dropdown-item:focus {
   color: var(--darkmode-color9);
   background-color: var(--darkmode-color3);
+}
+
+.kt-notification {
+    border-color: var(--darkmode-color3);
+}
+
+.kt-notification .kt-notification__item {
+    border-color: var(--darkmode-color3);
+}
+
+.kt-notification .kt-notification__item .kt-notification__item-details .kt-notification__item-title {
+    color: var(--darkmode-color9);
+}
+
+
+
+/* Surcharge widget.css */
+
+.plan-active-menu {
+    background-color: var(--darkmode-color4);
 }
 
 
