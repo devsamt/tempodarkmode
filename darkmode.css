@@ -1,5 +1,5 @@
 /*===================
-  Theme sombre v1.2
+  Theme sombre v1.3
 ===================*/
 
 /* Couleur */
@@ -115,6 +115,10 @@ body {
 .kt-datatable > .kt-datatable__table > .kt-datatable__body .kt-datatable__row,
 .kt-datatable > .kt-datatable__table > .kt-datatable__foot .kt-datatable__row {
   border-bottom-color: var(--darkmode-color1);
+}
+
+.kt-datatable > .kt-datatable__pager > .kt-datatable__pager-info .kt-datatable__pager-size .btn.dropdown-toggle {
+  background-color: var(--darkmode-color1);
 }
 
 .kt-portlet .kt-portlet__head {
@@ -337,6 +341,10 @@ table a {
     color: var(--darkmode-color9);
 }
 
+.kt-heading {
+    color: var(--darkmode-color8);
+}
+
 
 
 /* Surcharge widget.css */
@@ -395,4 +403,12 @@ table a {
 .dropzone {
   background: var(--darkmode-color1);
   border: 1px solid var(--darkmode-color3);
+}
+
+
+
+/* Surcharge add.css */
+
+.kt-wizard-v1.kt-wizard-v1--white .kt-wizard-v1__wrapper {
+  background-color: var(--darkmode-color2);
 }
