@@ -156,7 +156,7 @@ body {
 }
 
 .kt-widget16 .kt-widget16__items .kt-widget16__item {
-    border-color: var(--darkmode-color4);
+    border-color: var(--darkmode-color3);
 }
 
 .table {
@@ -343,6 +343,10 @@ table a {
 
 .kt-heading {
     color: var(--darkmode-color8);
+}
+
+.kt-widget1 .kt-widget1__item {
+    border-color: var(--darkmode-color3);
 }
 
 
