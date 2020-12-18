@@ -1,5 +1,5 @@
 /*===================
-  Theme sombre v1.3
+  Theme sombre v1.4
 ===================*/
 
 /* Couleur */
@@ -44,7 +44,8 @@ body {
   background-color: var(--darkmode-color1);
 }
 
-#kt_aside_brand, #kt_aside_menu {
+#kt_aside_brand,
+#kt_aside_menu {
   background-color: var(--darkmode-color5);
 }
 
@@ -57,11 +58,13 @@ body {
   color: var(--darkmode-color8);
 }
 
-.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__link {
+.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__heading,
+.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__link {
   background-color: var(--darkmode-color5);
 }
 
-.kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item.kt-menu__item--active > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item.kt-menu__item--active > .kt-menu__link {
+.kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item.kt-menu__item--active > .kt-menu__heading,
+.kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item.kt-menu__item--active > .kt-menu__link {
   background-color: var(--darkmode-color5);
 }
 
@@ -75,7 +78,8 @@ body {
   background-color: var(--darkmode-color6);
 }
 
-.kt-aside .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__link:after, .kt-aside .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--active > .kt-menu__link:after {
+.kt-aside .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__link:after,
+.kt-aside .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--active > .kt-menu__link:after {
   border-color: transparent var(--darkmode-color1) transparent transparent !important;
 }
 
@@ -180,7 +184,8 @@ table a {
   color: var(--darkmode-color8);
 }
 
-.dataTables_wrapper .dataTable th, .dataTables_wrapper .dataTable td {
+.dataTables_wrapper .dataTable th,
+.dataTables_wrapper .dataTable td {
   color: var(--darkmode-color8);
 }
 
@@ -209,7 +214,8 @@ table a {
   border-color: #669cf7 !important;
 }
 
-.form-control:disabled, .form-control[readonly] {
+.form-control:disabled,
+.form-control[readonly] {
   background-color: var(--darkmode-color1);
 }
 
@@ -241,7 +247,10 @@ table a {
   background-color: var(--darkmode-color1);
 }
 
-.show > .btn.btn-clean, .btn.btn-clean.active, .btn.btn-clean:active, .btn.btn-clean:hover {
+.show > .btn.btn-clean,
+.btn.btn-clean.active,
+.btn.btn-clean:active,
+.btn.btn-clean:hover {
   background: var(--darkmode-color3);
 }
 
@@ -262,8 +271,10 @@ table a {
   background-color: var(--darkmode-color2);
 }
 
-.dataTables_wrapper .pagination .page-item.previous > .page-link, .dataTables_wrapper .pagination .page-item.next > .page-link,
-.dataTables_wrapper .pagination .page-item.last > .page-link, .dataTables_wrapper .pagination .page-item.first > .page-link {
+.dataTables_wrapper .pagination .page-item.previous > .page-link,
+.dataTables_wrapper .pagination .page-item.next > .page-link,
+.dataTables_wrapper .pagination .page-item.last > .page-link,
+.dataTables_wrapper .pagination .page-item.first > .page-link {
   background: var(--darkmode-color1);
 }
 
@@ -306,7 +317,8 @@ table a {
   border-top-color: var(--darkmode-color3);
 }
 
-.dropdown-item:hover, .dropdown-item:focus {
+.dropdown-item:hover,
+.dropdown-item:focus {
   color: var(--darkmode-color9);
   background-color: var(--darkmode-color3);
 }
@@ -388,7 +400,8 @@ table a {
   border-color: var(--darkmode-color3);
 }
 
-.select2-container--default .select2-selection--multiple, .select2-container--default .select2-selection--single {
+.select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--single {
   border-color: var(--darkmode-color3);
 }
 
@@ -397,6 +410,12 @@ table a {
 }
 
 .select2-container--default .select2-dropdown {
+  border-color: var(--darkmode-color3);
+}
+
+.select2-container--default.select2-container--disabled .select2-selection--multiple,
+.select2-container--default.select2-container--disabled .select2-selection--single {
+  background-color: var(--darkmode-color2);
   border-color: var(--darkmode-color3);
 }
 
