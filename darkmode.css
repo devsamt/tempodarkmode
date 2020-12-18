@@ -216,7 +216,7 @@ table a {
 
 .form-control:disabled,
 .form-control[readonly] {
-  background-color: var(--darkmode-color1);
+  background-color: var(--darkmode-color2) !important;
 }
 
 .input-group-text {
@@ -225,7 +225,7 @@ table a {
 }
 
 .disabled {
-  background-color: var(--darkmode-color1) !important;
+  background-color: var(--darkmode-color2) !important;
 }
 
 .accordion.accordion-light .card {
