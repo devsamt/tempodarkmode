@@ -1,5 +1,5 @@
 /*===================
-  Theme sombre v1.5
+  Theme sombre v1.6
 ===================*/
 
 /* Couleur */
@@ -32,7 +32,7 @@ input {
 /* Surcharge login.css */
 
 .kt-login.kt-login--v1 .kt-login__wrapper {
-    background-color: var(--darkmode-color1) !important;
+  background-color: var(--darkmode-color1) !important;
 }
 
 
@@ -160,7 +160,7 @@ body {
 }
 
 .kt-widget16 .kt-widget16__items .kt-widget16__item {
-    border-color: var(--darkmode-color3);
+  border-color: var(--darkmode-color3);
 }
 
 .table {
@@ -324,41 +324,41 @@ table a {
 }
 
 .kt-notification {
-    border-color: var(--darkmode-color3);
+  border-color: var(--darkmode-color3);
 }
 
 .kt-notification .kt-notification__item {
-    border-color: var(--darkmode-color3);
+  border-color: var(--darkmode-color3);
 }
 
 .kt-notification .kt-notification__item:hover {
-    background-color: var(--darkmode-color1);
+  background-color: var(--darkmode-color1);
 }
 
 .kt-notification .kt-notification__item .kt-notification__item-details .kt-notification__item-title {
-    color: var(--darkmode-color9);
+  color: var(--darkmode-color9);
 }
 
 .jstree-default .jstree-anchor {
-    color: var(--darkmode-color8);
+  color: var(--darkmode-color8);
 }
 
 .jstree-default .jstree-clicked {
-    background: var(--darkmode-color1);
-    color: var(--darkmode-color9);
+  background: var(--darkmode-color1);
+  color: var(--darkmode-color9);
 }
 
 .jstree-default .jstree-hovered {
-    background: var(--darkmode-color1);
-    color: var(--darkmode-color9);
+  background: var(--darkmode-color1);
+  color: var(--darkmode-color9);
 }
 
 .kt-heading {
-    color: var(--darkmode-color8);
+  color: var(--darkmode-color8);
 }
 
 .kt-widget1 .kt-widget1__item {
-    border-color: var(--darkmode-color3);
+  border-color: var(--darkmode-color3);
 }
 
 .fc-unthemed th,
@@ -394,22 +394,35 @@ table a {
 }
 
 .fc-unthemed .fc-list-item .fc-event-dot {
-    background: var(--darkmode-color1);
-    border-color: var(--darkmode-color3);
+  background: var(--darkmode-color1);
+  border-color: var(--darkmode-color3);
 }
 
 .fc-unthemed .fc-event.fc-start .fc-content:before,
 .fc-unthemed .fc-event-dot.fc-start .fc-content:before {
-    background: var(--darkmode-color3);
+  background: var(--darkmode-color3);
 }
 
 .fc-unthemed .fc-toolbar .fc-button {
-    border-color: var(--darkmode-color3);
+  border-color: var(--darkmode-color3);
 }
 
 .fc-unthemed .fc-toolbar .fc-button:hover {
-    background-color: var(--darkmode-color1);
-    border-color: var(--darkmode-color4);
+  background-color: var(--darkmode-color1);
+  border-color: var(--darkmode-color4);
+}
+
+.btn-secondary {
+  border-color: var(--darkmode-color3);
+}
+
+.show > .btn-secondary.dropdown-toggle,
+.btn-secondary:focus,
+.btn-secondary.active,
+.btn-secondary:active,
+.btn-secondary:hover {
+  border-color: var(--darkmode-color3);
+  background-color: var(--darkmode-color1);
 }
 
 
@@ -417,7 +430,11 @@ table a {
 /* Surcharge widget.css */
 
 .plan-active-menu {
-    background-color: var(--darkmode-color1);
+  background-color: var(--darkmode-color1);
+}
+
+.zone_detail_content .kt-notification {
+  border: solid 1px var(--darkmode-color3);
 }
 
 
