@@ -1,5 +1,5 @@
 /*===================
-  Theme sombre v1.6
+  Theme sombre v1.7
 ===================*/
 
 /* Couleur */
@@ -423,6 +423,16 @@ table a {
 .btn-secondary:hover {
   border-color: var(--darkmode-color3);
   background-color: var(--darkmode-color1);
+}
+
+.kt-checkbox > span,
+.kt-checkbox > input:checked ~ span {
+  border-color: var(--darkmode-color4);
+}
+
+.btn-secondary.disabled, .btn-secondary:disabled {
+  color: var(--darkmode-color3);
+  border-color: var(--darkmode-color3);
 }
 
 
