@@ -1,5 +1,5 @@
 /*===================
-  Theme sombre v1.7
+  Theme sombre v1.8
 ===================*/
 
 /* Couleur */
@@ -433,6 +433,21 @@ table a {
 .btn-secondary.disabled, .btn-secondary:disabled {
   color: var(--darkmode-color3);
   border-color: var(--darkmode-color3);
+}
+
+.bootstrap-switch {
+  border-color: var(--darkmode-color3);
+}
+
+.bootstrap-switch .bootstrap-switch-label {
+  background-color: var(--darkmode-color1);
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-default,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default {
+  background-color: var(--darkmode-color8);
+  border-color: var(--darkmode-color8);
+  color: var(--darkmode-color1);
 }
 
 
